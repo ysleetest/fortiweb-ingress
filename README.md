@@ -56,7 +56,7 @@ The FortiWEB Ingress Controller has been verified to run in the Openshift Cluste
 | Environment | Tools for Building |
 |--|--|
 | Private Cloud | kubeadm, minikube, microk8s |
-| Public Cloud | AWS EKS, Oracle OKE |
+| Public Cloud | Azure AKS, AWS EKS, Oracle OKE |
 
 ## The Kubernetes API Version
 
