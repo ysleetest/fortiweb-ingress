@@ -41,8 +41,8 @@ spec:
                   drop: ["ALL"]
           {{- end }}
           env:
-            - name: OpenShiftRouteSupport
-              value: "{{ .Values.parameters.openshiftRouteSupport }}"
+          - name: OpenShiftRouteSupport
+            value: "{{ .Values.parameters.openshiftRouteSupport }}"
 
       {{- with .Values.nodeSelector }}
       nodeSelector:
