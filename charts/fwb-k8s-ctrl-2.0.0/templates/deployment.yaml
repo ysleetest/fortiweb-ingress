@@ -38,7 +38,7 @@ spec:
           {{- end }}
           env:
             - name: OpenShiftRouteSupport
-            value: "{{ .Values.parameters.openshiftRouteSupport }}"
+              value: "{{ .Values.parameters.openshiftRouteSupport }}"
 
       {{- with .Values.nodeSelector }}
       nodeSelector:
