@@ -48,7 +48,5 @@ controller:
     enabled: true
     default: true
     controllerValue: "fortinet.com/fwb-ingress-controller"
-parameters:
-  openshiftRouteSupport: "no"
 imagePullSecrets:
   - name: regcred
