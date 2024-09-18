@@ -1,10 +1,10 @@
-# Default values for fadc-k8s-ctrl.
+# Default values for fwb-k8s-ctrl.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-# FortiADC Ingress Controller image from Dockerhub.com
+# FortiWEB Ingress Controller image from Dockerhub.com
 image:
   repository: ysleetest/fwb-k8s-ctrl
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: "2.1.0.1"
 
 nameOverride: ""
@@ -41,14 +41,12 @@ tolerations:
 
 affinity: {}
 
-# Define Ingress Class for FortiADC Ingress Controller
+# Define Ingress Class for FortiWEB Ingress Controller
 controller:
   ingressClassResource:
     name: "fwb-ingress-controller"
     enabled: true
     default: true
     controllerValue: "fortinet.com/fwb-ingress-controller"
-parameters:
-  openshiftRouteSupport: "no"
 imagePullSecrets:
   - name: regcred
