@@ -5,7 +5,7 @@
 image:
   repository: ysleetest/fwb-k8s-ctrl
   pullPolicy: IfNotPresent
-  tag: "2.1.0.12"
+  tag: "2.1.0.13"
 
 nameOverride: ""
 fullnameOverride: ""
