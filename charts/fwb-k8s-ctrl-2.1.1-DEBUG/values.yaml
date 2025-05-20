@@ -4,8 +4,8 @@
 # FortiWEB Ingress Controller image from Dockerhub.com
 image:
   repository: ysleetest/fwb-k8s-ctrl
-  pullPolicy: IfNotPresent
-  tag: "2.1.1.96"
+  pullPolicy: Always
+  tag: "2.1.1.97"
 
 nameOverride: ""
 fullnameOverride: ""
