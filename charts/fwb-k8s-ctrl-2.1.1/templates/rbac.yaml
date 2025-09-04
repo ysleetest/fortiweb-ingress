@@ -5,7 +5,7 @@ metadata:
 rules:
 - apiGroups: [""]
   resources: ["pods", "services", "nodes", "endpoints", "secrets"]
-  verbs: ["get", "watch", "list"]
+  verbs: ["get", "watch", "list", "update"]
 - apiGroups:
   - networking.k8s.io
   resources:

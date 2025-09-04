@@ -28,9 +28,6 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           securityContext:
-              {{- if eq .Values.parameters.openshiftRouteSupport "yes" }}
-              runAsUser: 1000800000
-              {{- end }}  
               {{- if eq .Values.parameters.openshiftRouteSupport "no" }}
               runAsUser: 999
               {{- end }}
