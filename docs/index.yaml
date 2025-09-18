@@ -2,8 +2,19 @@ apiVersion: v1
 entries:
   fwb-k8s-ctrl:
   - apiVersion: v2
+    appVersion: 2.1.1-105
+    created: "2025-09-18T05:31:33.621239896Z"
+    description: A Helm chart for FortiWeb Ingress Controller
+    digest: 014099ec493007884e76dbe9b31da3e67e05c4912b89f341aa0c3ebe57886967
+    kubeVersion: '>= 1.19.8-0, <= 1.32-0'
+    name: fwb-k8s-ctrl
+    type: application
+    urls:
+    - https://github.com/ysleetest/fortiweb-ingress/raw/main/docs/fwb-k8s-ctrl-2.1.1-105.tgz
+    version: 2.1.1-105
+  - apiVersion: v2
     appVersion: 2.1.1-104
-    created: "2025-09-18T03:04:42.635224107Z"
+    created: "2025-09-18T05:31:33.61904526Z"
     description: A Helm chart for FortiWeb Ingress Controller
     digest: 3882373f8a74c2ad17bdbd971a23f18ac82b4f78b1f62bec5bbb1f16461755e8
     kubeVersion: '>= 1.19.8-0, <= 1.32-0'
@@ -14,7 +25,7 @@ entries:
     version: 2.1.1-104
   - apiVersion: v2
     appVersion: 1.0.2-2
-    created: "2025-09-18T03:04:42.633163565Z"
+    created: "2025-09-18T05:31:33.617009438Z"
     description: A Helm chart for FortiWeb Ingress Controller
     digest: c0c89600715b4293063097f628bab59678c2d09448cf729a28b57b7c76413ace
     kubeVersion: '>= 1.19.8-0, <= 1.28-0'
@@ -25,7 +36,7 @@ entries:
     version: 1.0.2-2
   - apiVersion: v2
     appVersion: 1.0.2-1
-    created: "2025-09-18T03:04:42.63113019Z"
+    created: "2025-09-18T05:31:33.61484714Z"
     description: A Helm chart for FortiWeb Ingress Controller
     digest: 2aa60d10043ef0ae62d947aee2c4604b84bb50e51cf0c442f56952a7a1e43d95
     kubeVersion: '>= 1.19.8-0, <= 1.28-0'
@@ -36,7 +47,7 @@ entries:
     version: 1.0.2-1
   - apiVersion: v2
     appVersion: 1.0.1-1
-    created: "2025-09-18T03:04:42.629057039Z"
+    created: "2025-09-18T05:31:33.612698031Z"
     description: A Helm chart for FortiWeb Ingress Controller
     digest: 8f734fb18f1e35d460a784c230ddef442c745963da69a3306b8aa7e3f5a3f1d5
     kubeVersion: '>= 1.19.8-0, <= 1.27-0'
@@ -45,4 +56,4 @@ entries:
     urls:
     - https://github.com/ysleetest/fortiweb-ingress/raw/main/docs/fwb-k8s-ctrl-1.0.1-1.tgz
     version: 1.0.1-1
-generated: "2025-09-18T03:04:42.626748466Z"
+generated: "2025-09-18T05:31:33.610394Z"
