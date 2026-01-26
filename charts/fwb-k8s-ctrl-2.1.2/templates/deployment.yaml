@@ -43,9 +43,9 @@ spec:
           env:
           - name: OpenShiftRouteSupport
             value: "{{ .Values.parameters.openshiftRouteSupport }}"
-          volumes:
-          - name: tmp-storage
-            emptyDir: {}    
+      volumes:
+      - name: tmp-storage
+        emptyDir: {}    
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
